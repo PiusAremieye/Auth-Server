@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PiusApplication {
+public class AuthServer {
 
     public static void main(String[] args) {
-        SpringApplication.run(PiusApplication.class, args);
+        SpringApplication.run(AuthServer.class, args);
     }
 
 }
